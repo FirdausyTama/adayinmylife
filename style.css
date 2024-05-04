@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Nabla&family=Tangerine:wght@400;700&display=swap');
+
+.greetings, .datetime {
+    font-size: 20px;
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    transition: transform 0.3s ease;
+    padding: auto;
+    background-color: #051f53c4;
+    color: #fff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.greetings {
+    font-family: "Condiment", cursive;
+    font-size: 30px;
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.10s ease;
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWNuMG5rc28wbzJ3bDdoanlueDQxYjV3a3NwYzhzeWZkcnI2cTFyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kKaVWUDkNq1hcPnzKe/giphy.gif");
+}
+
+.navbar {
+    background-color: #051f53c4;
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    color: #fff;
+    padding: .2rem 1rem;
+    transition: color 0.3s ease;
+    letter-spacing: 2px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    background: transparent;
+    border: none;
+    padding: 0;
+    font-size: 24px;
+    line-height: 1;
+    color: #fff;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    color: #ffffff;
+}
+
+.navbar-nav .active .nav-link {
+    color: #ffffff; 
+}
+
+/* Custom font for navbar */
+.navbar-nav .nav-link {
+    font-family: "Arial", cursive;
+    font-weight: bold; 
+
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: "Nabla", system-ui; 
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.carousel-item img {
+    border-radius: 15px;
+    max-height: 300px; 
+    object-fit: cover; 
+}
+
+.carousel-item {
+    max-height: 300px; 
+}
+
+.carousel-inner {
+    overflow: hidden; 
+}
+
+.footer {
+    background-color: #000000; /* Warna latar belakang footer */
+    padding-top: 20px; /* Ruang atas padding */
+    padding-bottom: 20px; /* Ruang bawah padding */
+}
+
+.footer .container {
+    text-align: center; /* Teks rata tengah */
+}
+
+.footer .text-muted {
+    font-size: 14px; /* Ukuran teks */
+}
+
+
+.card-img-top {
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+  
